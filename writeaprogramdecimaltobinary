@@ -1,0 +1,9 @@
+n = int(input())
+bin_list = []
+
+while n > 0:
+    bin_list.append(n % 2)
+    n = n // 2
+bin_list.reverse()
+for bit in bin_list:
+    print(bit, end='')
