@@ -1,0 +1,4 @@
+lst=[23,65,19,20]
+temp=lst[0]
+lst[2]=temp
+print(lst)
