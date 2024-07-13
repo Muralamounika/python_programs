@@ -1,0 +1,2 @@
+a='the sunrise is very beautiful'
+print('very'in a)
