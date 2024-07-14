@@ -1,0 +1,8 @@
+def is_automorphic(number):
+    squared = number ** 2
+    return str(squared).endswith(str(number))
+num = int(input("Enter a number: "))
+if is_automorphic(num):
+    print('the number is an automorphic number')
+else:
+    print('the number is not an automorphic number')
